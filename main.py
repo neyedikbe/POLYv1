@@ -94,7 +94,7 @@ PM_FEE_PCT = 0.0                      # Polymarket currently 0% taker fee
 SLIPPAGE_BASE_USD = 0.02              # base slippage estimate
 
 # --- Self-stop triggers ----------------------------------------------------
-MAX_CONSECUTIVE_LOSSES = 3
+MAX_CONSECUTIVE_LOSSES = 999
 DAILY_DRAWDOWN_PCT = -0.05            # -5% of capital
 MIN_MATIC_USD = 1.0                   # halt if MATIC balance < $1
 API_DOWNTIME_SECONDS = 600            # 10 minutes
